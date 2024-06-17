@@ -1,0 +1,17 @@
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMq.Publisher.exe
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMq.Publisher.deps.json
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMq.Publisher.runtimeconfig.json
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMq.Publisher.dll
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMq.Publisher.pdb
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.csproj.AssemblyReference.cache
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.AssemblyInfoInputs.cache
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.AssemblyInfo.cs
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.csproj.CoreCompileInputs.cache
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.78FBDC54.Up2Date
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.dll
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\refint\RabbitMq.Publisher.dll
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.pdb
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.genruntimeconfig.cache
+C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\ref\RabbitMq.Publisher.dll
