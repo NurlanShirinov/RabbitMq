@@ -24,7 +24,7 @@ channel.QueueDeclare(queue: "example-queue", exclusive: false); // consumerde qu
 
 //Queueden Mesaj oxuma
 EventingBasicConsumer consumer = new(channel);
-channel.BasicConsume(queue: "example-queue", false, consumer);
+channel.BasicConsume(queue: "example-queue", autoAck: false, consumer); //autoAck : false - verdikde consumerden onay gelene qeder RabbitMq - u nun mesaji silmesini engelleyirik.
 
 consumer.Received += (sender , e)=>
 {
@@ -32,6 +32,7 @@ consumer.Received += (sender , e)=>
     //e.Body : queue daki mesjin datasini hamisini getirecekdir.
     //e.Body.Span ve ya e.Body.ToArray() : queuedaki mesajin byte formasini getirecekdir
     Console.WriteLine(Encoding.UTF8.GetString(e.Body.Span));
+    channel.BasicAck(deliveryTag: e.DeliveryTag, multiple: false); // multiple : false deyerek sadece bu mesaji sil deye mesaj gonderiririk.
 };
 
 Console.Read();

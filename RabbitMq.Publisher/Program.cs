@@ -24,7 +24,12 @@ channel.QueueDeclare(queue: "example-queue", exclusive: false);
 //Queue-a mesaj gonderme
 //RabbitMQ queue atilan mesajlari byte tipinden qebul edir. Mesajlari byte cast etmek lazimdir.
 
-byte[] message = Encoding.UTF8.GetBytes("Merhaba");
-channel.BasicPublish(exchange:"", routingKey: "example-queue", body:message);
+for(int i = 0; i < 100; i++)
+{
+    await Task.Delay(200);
+    byte[] message = Encoding.UTF8.GetBytes("Merhaba "+ i);
+    channel.BasicPublish(exchange: "", routingKey: "example-queue", body: message);
+}
+
 
 Console.Read();
