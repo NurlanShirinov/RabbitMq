@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d/qNf4KeOV5XAGm6bTcCzHkDo2zxA30eVSkO5ZNijfUaxN5sgHih9tALBdBAhNocbF8YqrhK7jRx037X8KC2+Q==",
+  "dgSpecHash": "WebaFz9j2xH+bUt3aPl/idP+/el9FuZxRDOzb+blQZiwJeEUHV3+Mq+Rle9aKCCT3EUka/oNrGgkdp5FUlhfTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
+  "projectFilePath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\My_Vivobook\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\My_Vivobook\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj": {}
+    "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj": {
+    "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
+        "projectUniqueName": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
         "projectName": "RabbitMq.Publisher",
-        "projectPath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
+        "projectPath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\RabbitMq.Publisher.csproj",
         "packagesPath": "C:\\Users\\My_Vivobook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMq\\RabbitMq.Publisher\\obj\\",
+        "outputPath": "C:\\Users\\My_Vivobook\\source\\repos\\RabbitMQ\\RabbitMq.Publisher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My_Vivobook\\AppData\\Roaming\\NuGet\\NuGet.Config",
