@@ -19,12 +19,18 @@ using IConnection connection = factory.CreateConnection();
 using IModel channel = connection.CreateModel();
 
 //Queue olushtumaq
-channel.QueueDeclare(queue: "example-queue", exclusive: false);
+channel.QueueDeclare(queue: "example-queue", exclusive: false, durable: true); // queue nun qalici olmasi ucun etdiyimiz configuration durable : true
 
 //Queue-a mesaj gonderme
 //RabbitMQ queue atilan mesajlari byte tipinden qebul edir. Mesajlari byte cast etmek lazimdir.
 
-byte[] message = Encoding.UTF8.GetBytes("Merhaba");
-channel.BasicPublish(exchange:"", routingKey: "example-queue", body:message);
+IBasicProperties properties = channel.CreateBasicProperties();  //Mesajin qalici olmasi ucun edilen configuration
+properties.Persistent = true;
+
+for (int i = 0; i < 100; i++)
+{
+    byte[] message = Encoding.UTF8.GetBytes("Merhaba");
+    channel.BasicPublish(exchange: "", routingKey: "example-queue", body: message, basicProperties:properties);
+}
 
 Console.Read();
