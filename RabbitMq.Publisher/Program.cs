@@ -3,7 +3,7 @@
 //2. Baglantını aktivləşdirmək və kanal açmaq
 //3. Queue olushturmaq
 //4. Queue ya mesaj gondermek
-`
+
 
 using RabbitMQ.Client;
 using System.Text;
@@ -32,5 +32,6 @@ for (int i = 0; i < 100; i++)
     byte[] message = Encoding.UTF8.GetBytes("Merhaba");
     channel.BasicPublish(exchange: "", routingKey: "example-queue", body: message, basicProperties:properties);
 }
+
 
 Console.Read();

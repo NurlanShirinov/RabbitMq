@@ -15,3 +15,4 @@ C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\r
 C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.pdb
 C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.genruntimeconfig.cache
 C:\Users\My_Vivobook\source\repos\RabbitMq\RabbitMq.Publisher\obj\Debug\net8.0\ref\RabbitMq.Publisher.dll
+C:\Users\My_Vivobook\source\repos\RabbitMQ\RabbitMq.Publisher\obj\Debug\net8.0\RabbitMq.Publisher.sourcelink.json
