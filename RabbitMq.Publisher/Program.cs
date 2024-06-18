@@ -3,7 +3,7 @@
 //2. Baglantını aktivləşdirmək və kanal açmaq
 //3. Queue olushturmaq
 //4. Queue ya mesaj gondermek
-
+`
 
 using RabbitMQ.Client;
 using System.Text;
